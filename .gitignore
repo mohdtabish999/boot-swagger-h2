@@ -97,4 +97,4 @@ hs_err_pid*
 *.log
 
 # spring & hibernate
-*.properties
+#*.properties
