@@ -7,3 +7,10 @@
 4. Check whether Maven is installed ? using mvn -version
 5. Run the following Command mvn spring-boot:run
 6. Access the resource using http://localhost:8080/swagger-ui.html
+
+# Docker deployment
+```
+dcoker pull mohdtabish999/repo:tag_1
+docker images
+docker run -p 8888:8080 mohdtabish999/repo:tag_1
+```
